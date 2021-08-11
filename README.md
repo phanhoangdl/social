@@ -32,3 +32,8 @@
       "server":"nodemon src/server.ts"
     },
   - Lenh chay: yarn server
+  
+  # Cau hinh database voi mongoose
+  - Tham khao: https://mongoosejs.com/
+  - yarn add mongoose
+  - yarn add @types/mongoose --dev

@@ -9,7 +9,7 @@
 ## Command 
 - npm init or yarn init
 - git init
-- git config --global user.email "phanhoangdl@gmail.com"
+- git config --global user.email ""
 - git config --global user.name "Phan Hoang"
 - git add *
 - git commit -m "Initial commit"

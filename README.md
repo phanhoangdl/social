@@ -20,3 +20,15 @@
 - git push -u origin main
 - tsc --init // config typescript
 - Tham khao: https://www.typescriptlang.org/tsconfig
+  
+  ## Tao du an voi express
+  - yarn add express
+  - yarn add @types/express --dev
+  
+  ## Run:
+  - yarn add typescript nodemon ts-node --dev
+  - Them package.json: 
+    "scripts": {
+      "server":"nodemon src/server.ts"
+    },
+  - Lenh chay: yarn server

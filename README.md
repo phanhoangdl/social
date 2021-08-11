@@ -18,3 +18,5 @@
 - git remote show origin
 - git branch -M main
 - git push -u origin main
+- tsc --init // config typescript
+- Tham khao: https://www.typescriptlang.org/tsconfig

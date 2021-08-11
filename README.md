@@ -34,6 +34,6 @@
   - Lenh chay: yarn server
   
   # Cau hinh database voi mongoose
-  - Tham khao: https://mongoosejs.com/
+  - Tham khao: https://mongoosejs.com/, mongoosejs github
   - yarn add mongoose
   - yarn add @types/mongoose --dev

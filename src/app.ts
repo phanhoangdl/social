@@ -27,7 +27,11 @@ class App {
 
     private connectToDatabase() {
         try {
-            const connectionString = `mongodb+srv://tedu:tK7NAFbAAUs5XBFD@master.5mwp2.mongodb.net/tedu_social?retryWrites=true&w=majority`;
+            const connectionString = process.env.MONGODB_URI;
+            if(!connectionString){
+                console.log('Connection string is invalid');
+                return;
+            }
             mongoose.connect(connectionString, {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,

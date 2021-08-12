@@ -37,3 +37,8 @@
   - Tham khao: https://mongoosejs.com/, mongoosejs github
   - yarn add mongoose
   - yarn add @types/mongoose --dev
+  - yarn add dotenv // cau hinh file env chua cac bien config const
+  - yarn add cross-env --dev // cau hinh
+  
+  
+  

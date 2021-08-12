@@ -40,5 +40,8 @@
   - yarn add dotenv // cau hinh file env chua cac bien config const
   - yarn add cross-env --dev // cau hinh
   
-  
+  # Cai dat cac middleware package
+  - yarn add hpp helmet morgan cors
+  - hpp: protect against HTTP Parameter Pollution attacks
+  - winston: custom logger
   

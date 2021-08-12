@@ -27,7 +27,7 @@ class App {
 
     private connectToDatabase() {
         try {
-            const connectionString = `mongodb+srv://tedu:tK7NAFbAAUs5XBFD@master.5mwp2.mongodb.net/tedu_social?retryWrites=true&w=majority`;
+            const connectionString = `mongodb+srv://tedu:@master.5mwp2.mongodb.net/tedu_social?retryWrites=true&w=majority`;
             mongoose.connect(connectionString, {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,

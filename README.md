@@ -45,3 +45,6 @@
   - hpp: protect against HTTP Parameter Pollution attacks
   - winston: custom logger
   
+  # Validate bien moi truong
+  - yarn add envalid
+  
